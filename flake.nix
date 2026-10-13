@@ -30,7 +30,7 @@
             else rustVersion;
           rustToolchain = (fenix.packages.${system}.toolchainOf {
             channel = msrv;
-            sha256 = "sha256-P30Tm3O7vQAE725YtDCDHGjNrSsfZO4us11UwJGZSJo=";
+            sha256 = "sha256-zm3dyIY2T414ZRR3EhLOvptzG6gta4WZUcawzMUWtqI=";
           }).withComponents [
             "cargo"
             "clippy"
